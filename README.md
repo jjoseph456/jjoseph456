@@ -1,49 +1,62 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=2500&pause=1000&color=58A6FF&background=00000000&vCenter=true&multiline=true&width=600&height=120&lines=%F0%9F%91%8B+Hey%2C+I'm+Joseph!;Enterprise+Support+Engineer+%40+GitHub" />
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=2500&pause=1000&color=24292F&background=00000000&vCenter=true&multiline=true&width=600&height=120&lines=%F0%9F%91%8B+Hey%2C+I'm+Joseph!;Enterprise+Support+Engineer+%40+GitHub" />
-</picture>
+# Joseph
 
-[![GitHub Badge](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=fff&style=flat-square)](https://github.com/jjoseph456)
-[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=fff&style=flat-square)](https://www.linkedin.com/in/josephpjoseph/)
+**Enterprise Support Engineer at GitHub** specializing in GitHub Actions,
+GitHub Enterprise Server, Advanced Security, incident response, and support
+automation.
 
----
+I have four years of experience owning complex enterprise technical issues,
+reproducing failures, analyzing logs and APIs, collaborating with engineering
+and product teams, and turning recurring problems into tooling and
+documentation.
 
-### 🧑‍💻 About Me
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Joseph_P._Joseph-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/josephpjoseph/)
 
-- 🐙 **Enterprise Support Engineer** at [GitHub](https://github.com) — specializing in **Actions**, **CodeQL**, and **GHES**
-- 🎓 Grambling State University alum
-- 🛠️ 4+ years helping GitHub's largest enterprise customers solve complex DevOps challenges
-- 📝 Author of 50+ internal knowledge base articles
-- 🎮 Gamer, coding side-project enthusiast, and project management nerd
+## Featured Work
 
----
+### [Support Engineering Portfolio](https://github.com/jjoseph456/support-engineering-portfolio)
 
-### 🔧 What I Work With
+Python automation and original technical writing that demonstrate:
 
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=fff&style=flat-square)
-![CodeQL](https://img.shields.io/badge/CodeQL-00ADD8?logo=github&logoColor=fff&style=flat-square)
-![GHES](https://img.shields.io/badge/GitHub_Enterprise_Server-181717?logo=github&logoColor=fff&style=flat-square)
-![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=000&style=flat-square)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=fff&style=flat-square)
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=fff&style=flat-square)
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=flat-square)
+- Incident prioritization and diagnostic next actions
+- Engineering-escalation readiness checks
+- Synthetic incident data, unit tests, and CI-friendly exit codes
+- Incident-response, postmortem, GitHub Actions, GHES, and Advanced Security
+  guidance
 
----
+### [GitHub Actions Workflow Auditor](https://github.com/jjoseph456/github-actions-workflow-auditor)
 
-### 📊 GitHub Stats
+A tested Python CLI that statically reviews workflow YAML for:
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=jjoseph456&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github" />
-  <img src="https://github-readme-stats.vercel.app/api?username=jjoseph456&show_icons=true&theme=default&hide_border=true&rank_icon=github" />
-</picture>
+- Missing least-privilege permissions
+- Mutable action references
+- Direct interpolation of untrusted data into shell commands
+- Dangerous `pull_request_target` checkout patterns
+- Missing timeouts and concurrency controls
+- OIDC and reusable-workflow secret-boundary concerns
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com?user=jjoseph456&theme=github-dark-blue&hide_border=true" />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=jjoseph456&theme=default&hide_border=true" />
-</picture>
+## Technical Capabilities
 
----
+| Area | Example output |
+| --- | --- |
+| GitHub Actions workflow health check | Security and reliability findings with prioritized remediation |
+| Incident and escalation process review | Triage rules, escalation criteria, and communication templates |
+| GHES operational-readiness review | Upgrade, backup, monitoring, and incident-preparation recommendations |
+| Support automation prototype | Tested Python CLI with structured output and automation exit codes |
+| Technical documentation sprint | Troubleshooting guides, runbooks, postmortems, and knowledge articles |
 
-<p align="center">
-  <i>From debugging enterprise workflows to gaming lobbies — always solving problems.</i> 🎯
-</p>
+## Technical Areas
+
+`GitHub Actions` · `GHES` · `Advanced Security` · `CodeQL` · `CI/CD` ·
+`Python` · `Bash` · `Linux` · `Docker` · `APIs` · `Identity and Access` ·
+`Incident Response` · `Technical Writing`
+
+## Selected Writing
+
+- [Secure and Reliable GitHub Actions Workflows](https://github.com/jjoseph456/support-engineering-portfolio/blob/main/best-practices/github-actions-secure-reliable-workflows.md)
+- [GitHub Enterprise Server Operational Readiness](https://github.com/jjoseph456/support-engineering-portfolio/blob/main/best-practices/ghes-operational-readiness.md)
+- [GitHub Advanced Security Rollout and Operations](https://github.com/jjoseph456/support-engineering-portfolio/blob/main/best-practices/github-advanced-security-rollout.md)
+- [From Symptom to Engineering-Ready Escalation](https://github.com/jjoseph456/support-engineering-portfolio/blob/main/docs/engineering-ready-escalations.md)
+
+> These are personal, unofficial projects. Public examples use synthetic data
+> and do not contain employer source code, customer information, support-case
+> data, or internal documentation.
