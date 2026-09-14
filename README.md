@@ -31,6 +31,11 @@ A tested Python CLI that flags customer-outcome risks after an engineering
 escalation is filed, including missing ownership, stale updates, premature
 closure, and customer cases that lose their active path.
 
+### [Support Knowledge Hygiene](https://github.com/jjoseph456/support-knowledge-hygiene)
+
+A tested Python CLI that identifies knowledge assets needing an owner, review,
+archive decision, or duplicate-content review from synthetic usage data.
+
 ### [GitHub Actions Workflow Auditor](https://github.com/jjoseph456/github-actions-workflow-auditor)
 
 A Python CLI for repeatable CI/CD security and reliability reviews:
