@@ -1,61 +1,75 @@
-# Joseph
+# Joseph P. Joseph
 
-**Enterprise Support Engineer at GitHub** specializing in GitHub Actions,
-GitHub Enterprise Server, Advanced Security, incident response, and support
-automation.
+**Support Engineer | Reliability Engineering | Developer Tooling**
 
-I have four years of experience owning complex enterprise technical issues,
-reproducing failures, analyzing logs and APIs, collaborating with engineering
-and product teams, and turning recurring problems into tooling and
-documentation.
+I investigate difficult production failures, turn ambiguous evidence into
+reproducible diagnoses, and build tools that make incident response and
+engineering handoffs faster. My work spans CI/CD, GitHub Enterprise Server,
+application security, APIs, and operational automation.
+
+I bring four years of enterprise support experience together with practical
+Python, shell, and GitHub Actions development. The public projects below use
+synthetic data and standalone examples to demonstrate how I work without
+exposing customer, employer, or operational information.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Joseph_P._Joseph-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/josephpjoseph/)
 
-## Featured Work
+## Selected Projects
 
 ### [Support Engineering Portfolio](https://github.com/jjoseph456/support-engineering-portfolio)
 
-Python automation and original technical writing that demonstrate:
+Tested Python tools and synthetic case-study patterns for:
 
-- Incident prioritization and diagnostic next actions
-- Engineering-escalation readiness checks
-- Synthetic incident data, unit tests, and CI-friendly exit codes
-- Incident-response, postmortem, GitHub Actions, GHES, and Advanced Security
-  guidance
+- Evidence-led incident triage and next diagnostic steps
+- Engineering-ready escalation quality checks
+- Clear separation of observations, hypotheses, and root cause
+- Incident communication, postmortems, and operational documentation
 
 ### [GitHub Actions Workflow Auditor](https://github.com/jjoseph456/github-actions-workflow-auditor)
 
-A tested Python CLI that statically reviews workflow YAML for:
+A Python CLI for repeatable CI/CD security and reliability reviews:
 
-- Missing least-privilege permissions
-- Mutable action references
-- Direct interpolation of untrusted data into shell commands
-- Dangerous `pull_request_target` checkout patterns
-- Missing timeouts and concurrency controls
-- OIDC and reusable-workflow secret-boundary concerns
+- Least-privilege permissions and immutable action references
+- Unsafe untrusted-input and privileged pull-request patterns
+- Timeouts, concurrency, OIDC, and reusable-workflow boundaries
+- Human-readable and JSON output for local checks and CI
 
-## Technical Capabilities
+### [GHES Bundle Triage](https://github.com/jjoseph456/gh-bundle)
 
-| Area | Example output |
-| --- | --- |
-| GitHub Actions workflow health check | Security and reliability findings with prioritized remediation |
-| Incident and escalation process review | Triage rules, escalation criteria, and communication templates |
-| GHES operational-readiness review | Upgrade, backup, monitoring, and incident-preparation recommendations |
-| Support automation prototype | Tested Python CLI with structured output and automation exit codes |
-| Technical documentation sprint | Troubleshooting guides, runbooks, postmortems, and knowledge articles |
+A read-only `gh` CLI extension for fast, evidence-first triage of GitHub
+Enterprise Server support bundles. It selectively inspects health, resource,
+service, and connectivity signals without expanding a full archive.
 
-## Technical Areas
+### [Code Scanning Reproduction](https://github.com/jjoseph456/cs-merge-protection-repro)
+
+A minimal, isolated reproduction that explores how code-scanning
+merge-protection selects analyses across Git references. It demonstrates my
+approach to reducing a complex report to a testable technical question.
+
+## How I Work
+
+- **Make the problem testable.** Start with immutable evidence, define the
+  failure boundary, and distinguish facts from hypotheses.
+- **Build for reuse.** Convert recurring investigations into tested tools,
+  small reproductions, and practical documentation.
+- **Improve the handoff.** Give engineering a focused question, the evidence
+  needed to answer it, and a clear customer-impact statement.
+- **Communicate uncertainty honestly.** A useful outcome can be a bounded next
+  step, not a premature root-cause claim.
+
+## Technical Focus
 
 `GitHub Actions` · `GHES` · `Advanced Security` · `CodeQL` · `CI/CD` ·
 `Python` · `Bash` · `Linux` · `Docker` · `APIs` · `Identity and Access` ·
 `Incident Response` · `Technical Writing`
 
-## Selected Writing
+## Writing and Case Studies
 
 - [Secure and Reliable GitHub Actions Workflows](https://github.com/jjoseph456/support-engineering-portfolio/blob/main/best-practices/github-actions-secure-reliable-workflows.md)
 - [GitHub Enterprise Server Operational Readiness](https://github.com/jjoseph456/support-engineering-portfolio/blob/main/best-practices/ghes-operational-readiness.md)
 - [GitHub Advanced Security Rollout and Operations](https://github.com/jjoseph456/support-engineering-portfolio/blob/main/best-practices/github-advanced-security-rollout.md)
 - [From Symptom to Engineering-Ready Escalation](https://github.com/jjoseph456/support-engineering-portfolio/blob/main/docs/engineering-ready-escalations.md)
+- [Synthetic Support Engineering Case Studies](https://github.com/jjoseph456/support-engineering-portfolio/blob/main/docs/synthetic-case-study-patterns.md)
 
 > These are personal, unofficial projects. Public examples use synthetic data
 > and do not contain employer source code, customer information, support-case
