@@ -25,6 +25,12 @@ Tested Python tools and synthetic case-study patterns for:
 - Clear separation of observations, hypotheses, and root cause
 - Incident communication, postmortems, and operational documentation
 
+### [Escalation Lifecycle Guard](https://github.com/jjoseph456/escalation-lifecycle-guard)
+
+A tested Python CLI that flags customer-outcome risks after an engineering
+escalation is filed, including missing ownership, stale updates, premature
+closure, and customer cases that lose their active path.
+
 ### [GitHub Actions Workflow Auditor](https://github.com/jjoseph456/github-actions-workflow-auditor)
 
 A Python CLI for repeatable CI/CD security and reliability reviews:
