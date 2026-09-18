@@ -25,6 +25,16 @@ Tested Python tools and synthetic case-study patterns for:
 - Clear separation of observations, hypotheses, and root cause
 - Incident communication, postmortems, and operational documentation
 
+### [Linux Fleet Readiness](https://github.com/jjoseph456/linux-fleet-readiness)
+
+A read-only Python CLI that converts Linux fleet inventory into repeatable
+operational checks and guarded server-decommission plans:
+
+- Patching, backup, monitoring, encryption, and OS-support readiness checks
+- Explicit validation, prioritized findings, and JSON output
+- Safety gates for approvals, dependencies, recovery evidence, and production
+- Synthetic infrastructure data, unit tests, and CI-friendly exit codes
+
 ### [Escalation Lifecycle Guard](https://github.com/jjoseph456/escalation-lifecycle-guard)
 
 A tested Python CLI that flags customer-outcome risks after an engineering
