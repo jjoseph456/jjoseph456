@@ -15,6 +15,22 @@ information.
 
 ## Selected Projects
 
+### [Runner Fleet Reliability Platform](https://github.com/jjoseph456/runner-fleet-reliability-platform)
+
+A production-shaped SRE and developer-platform project for ephemeral GitHub
+Actions runner fleets:
+
+- OpenTofu configuration for a temporary AWS EKS lab
+- Kubernetes, Helm, and Actions Runner Controller configuration
+- Queue, startup, cleanup, and maximum-age SLOs
+- Prometheus metrics and alert rules
+- Capacity, cost, and incident evidence
+- Read-only MCP tools for fleet inspection and recommendations
+- Deterministic burst, capacity-loss, image-failure, and API-degradation tests
+
+**Current status:** validated local and infrastructure scaffold; cloud
+deployment evidence has not yet been captured.
+
 ### [Support Composer Assistant + Support Operations Agent](https://github.com/jjoseph456/support-composer-assistant)
 
 A clean-room Zendesk editor with an opt-in Python agent service:
@@ -75,9 +91,9 @@ A Python CLI for repeatable CI/CD security and reliability reviews:
 
 ## Technical Focus
 
-`Python` · `FastAPI` · `AI Agent Evaluation` · `Tool Use` · `Human Approval` ·
-`GitHub Actions` · `CI/CD` · `Linux` · `Docker` · `APIs` · `Incident Response`
-· `Technical Writing`
+`Python` · `FastAPI` · `OpenTofu` · `Kubernetes` · `Helm` · `Prometheus` ·
+`MCP` · `SLOs` · `GitHub Actions` · `CI/CD` · `Linux` · `Docker` · `APIs` ·
+`Incident Response`
 
 ## Design-partner invitation
 
