@@ -31,21 +31,6 @@ Actions runner fleets:
 **Current status:** validated local and infrastructure scaffold; cloud
 deployment evidence has not yet been captured.
 
-### [Support Composer Assistant + Support Operations Agent](https://github.com/jjoseph456/support-composer-assistant)
-
-A clean-room Zendesk editor with an opt-in Python agent service:
-
-- Multi-step support analysis with registered knowledge and status tools
-- Durable SQLite case memory and an auditable event history
-- Clear separation of observations, hypotheses, and confirmed facts
-- Human approval with stale-revision protection
-- Deterministic and OpenAI-compatible providers
-- Token, latency, and estimated-cost reporting
-- API tests, 20 synthetic evaluations, Docker, CI, and a threat model
-
-**Current status:** pilot-stage portfolio product; not yet validated with
-production customer data or paying users.
-
 ### [Support Engineering Portfolio](https://github.com/jjoseph456/support-engineering-portfolio)
 
 Tested Python tools and synthetic case-study patterns for:
