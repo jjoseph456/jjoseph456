@@ -50,6 +50,16 @@ operational checks and guarded server-decommission plans:
 - Safety gates for approvals, dependencies, recovery evidence, and production
 - Synthetic infrastructure data, unit tests, and CI-friendly exit codes
 
+### [Guarded Fleet Change](https://github.com/jjoseph456/guarded-fleet-change)
+
+Policy-gated, approval-bound, staged Ansible rollouts for Linux fleets, shown
+through an SSSD directory migration:
+
+- Planner that runs a staging canary first and never splits HA pairs into one wave
+- Policy gate for wave size, freeze windows, readiness, and staging-before-production
+- Approvals bound to a plan digest, with no self-approval and in-order wave apply
+- Ansible role with automatic rollback, tested by Molecule on Rocky Linux 9 and Ubuntu 24.04
+
 ### [GitHub Actions Workflow Auditor](https://github.com/jjoseph456/github-actions-workflow-auditor)
 
 A Python CLI for repeatable CI/CD security and reliability reviews:
