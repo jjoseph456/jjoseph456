@@ -31,21 +31,6 @@ Actions runner fleets:
 **Current status:** validated local and infrastructure scaffold; cloud
 deployment evidence has not yet been captured.
 
-### [Support Composer Assistant + Support Operations Agent](https://github.com/jjoseph456/support-composer-assistant)
-
-A clean-room Zendesk editor with an opt-in Python agent service:
-
-- Multi-step support analysis with registered knowledge and status tools
-- Durable SQLite case memory and an auditable event history
-- Clear separation of observations, hypotheses, and confirmed facts
-- Human approval with stale-revision protection
-- Deterministic and OpenAI-compatible providers
-- Token, latency, and estimated-cost reporting
-- API tests, 20 synthetic evaluations, Docker, CI, and a threat model
-
-**Current status:** pilot-stage portfolio product; not yet validated with
-production customer data or paying users.
-
 ### [Support Engineering Portfolio](https://github.com/jjoseph456/support-engineering-portfolio)
 
 Tested Python tools and synthetic case-study patterns for:
@@ -74,6 +59,29 @@ A Python CLI for repeatable CI/CD security and reliability reviews:
 - Timeouts, concurrency, OIDC, and reusable-workflow boundaries
 - Human-readable and JSON output for local checks and CI
 
+### [Escalation Lifecycle Guard](https://github.com/jjoseph456/escalation-lifecycle-guard)
+
+A dependency-free Python CLI that checks whether a support escalation still
+has a clear path to a customer outcome:
+
+- Technical and customer-impact ownership, update cadence, and OOO coverage
+- Business-day engineering response targets by severity
+- Inactivity closures that are mislabeled as customer recovery
+- Reopened escalations without a fresh technical decision
+
+### [gh-bundle](https://github.com/jjoseph456/gh-bundle)
+
+A `gh` CLI extension for a fast, read-only first look at a GitHub Enterprise
+Server support bundle: disk, memory and OOM, failed services, and proxy or
+connectivity errors.
+
+### More Projects
+
+- [Support Knowledge Hygiene](https://github.com/jjoseph456/support-knowledge-hygiene):
+  score knowledge assets for ownership, freshness, usage, and duplication risk.
+- [Code Scanning Merge-Protection Reproduction](https://github.com/jjoseph456/cs-merge-protection-repro):
+  a minimal reproduction of analysis selection across Git references.
+
 ## How I Work
 
 - **Make the problem testable.** Start with immutable evidence, define the
@@ -95,19 +103,13 @@ A Python CLI for repeatable CI/CD security and reliability reviews:
 `MCP` · `SLOs` · `GitHub Actions` · `CI/CD` · `Linux` · `Docker` · `APIs` ·
 `Incident Response`
 
-## Design-partner invitation
-
-I am seeking three support or DevTools teams willing to review a controlled
-pilot using synthetic or appropriately sanitized data. The goal is to measure
-diagnostic-plan speed, reviewer edits, unsafe-claim rate, workflow completion,
-and model cost. Contact me through LinkedIn if that matches your environment.
-
 ## Writing and Case Studies
 
 - [Secure and Reliable GitHub Actions Workflows](https://github.com/jjoseph456/support-engineering-portfolio/blob/main/best-practices/github-actions-secure-reliable-workflows.md)
 - [GitHub Enterprise Server Operational Readiness](https://github.com/jjoseph456/support-engineering-portfolio/blob/main/best-practices/ghes-operational-readiness.md)
 - [GitHub Advanced Security Rollout and Operations](https://github.com/jjoseph456/support-engineering-portfolio/blob/main/best-practices/github-advanced-security-rollout.md)
 - [From Symptom to Engineering-Ready Escalation](https://github.com/jjoseph456/support-engineering-portfolio/blob/main/docs/engineering-ready-escalations.md)
+- [Closure Is Not Customer Recovery](https://github.com/jjoseph456/support-engineering-portfolio/blob/main/docs/closure-is-not-customer-recovery.md)
 - [Synthetic Support Engineering Case Studies](https://github.com/jjoseph456/support-engineering-portfolio/blob/main/docs/synthetic-case-study-patterns.md)
 
 > These are personal, unofficial projects. Public examples use synthetic data
