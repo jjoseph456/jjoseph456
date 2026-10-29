@@ -1,6 +1,6 @@
 # Joseph P. Joseph
 
-**AI-Assisted Support Automation | CI/CD Reliability | Python**
+**Support Automation | CI/CD Reliability | Python**
 
 I build reliable support and operations workflows with Python, APIs, CI/CD,
 human approval, and evidence-driven escalation.
@@ -15,21 +15,27 @@ information.
 
 ## Selected Projects
 
-### [Runner Fleet Reliability Platform](https://github.com/jjoseph456/runner-fleet-reliability-platform)
+### [GitHub Actions Workflow Auditor](https://github.com/jjoseph456/github-actions-workflow-auditor)
 
-A production-shaped SRE and developer-platform project for ephemeral GitHub
-Actions runner fleets:
+A Python CLI for repeatable CI/CD security and reliability reviews:
 
-- OpenTofu configuration for a temporary AWS EKS lab
-- Kubernetes, Helm, and Actions Runner Controller configuration
-- Queue, startup, cleanup, and maximum-age SLOs
-- Prometheus metrics and alert rules
-- Capacity, cost, and incident evidence
-- Read-only MCP tools for fleet inspection and recommendations
-- Deterministic burst, capacity-loss, image-failure, and API-degradation tests
+- Least-privilege permissions and immutable action references
+- Unsafe untrusted-input and privileged pull-request patterns
+- Timeouts, concurrency, OIDC, and reusable-workflow boundaries
+- Human-readable and JSON output for local checks and CI
+- Gates CI, at its strictest threshold, for its own workflows and for Guarded
+  Fleet Change, Support Engineering Portfolio, Linux Fleet Readiness, and
+  Runner Fleet Reliability Platform
 
-**Current status:** validated local and infrastructure scaffold; cloud
-deployment evidence has not yet been captured.
+### [Guarded Fleet Change](https://github.com/jjoseph456/guarded-fleet-change)
+
+Policy-gated, approval-bound, staged Ansible rollouts for Linux fleets, shown
+through an SSSD directory migration:
+
+- Planner that runs a staging canary first and never splits HA pairs into one wave
+- Policy gate for wave size, freeze windows, readiness, and staging-before-production
+- Approvals bound to a plan digest, with no self-approval and in-order wave apply
+- Ansible role with automatic rollback, tested by Molecule on Rocky Linux 9 and Ubuntu 24.04
 
 ### [Support Engineering Portfolio](https://github.com/jjoseph456/support-engineering-portfolio)
 
@@ -50,25 +56,6 @@ operational checks and guarded server-decommission plans:
 - Safety gates for approvals, dependencies, recovery evidence, and production
 - Synthetic infrastructure data, unit tests, and CI-friendly exit codes
 
-### [Guarded Fleet Change](https://github.com/jjoseph456/guarded-fleet-change)
-
-Policy-gated, approval-bound, staged Ansible rollouts for Linux fleets, shown
-through an SSSD directory migration:
-
-- Planner that runs a staging canary first and never splits HA pairs into one wave
-- Policy gate for wave size, freeze windows, readiness, and staging-before-production
-- Approvals bound to a plan digest, with no self-approval and in-order wave apply
-- Ansible role with automatic rollback, tested by Molecule on Rocky Linux 9 and Ubuntu 24.04
-
-### [GitHub Actions Workflow Auditor](https://github.com/jjoseph456/github-actions-workflow-auditor)
-
-A Python CLI for repeatable CI/CD security and reliability reviews:
-
-- Least-privilege permissions and immutable action references
-- Unsafe untrusted-input and privileged pull-request patterns
-- Timeouts, concurrency, OIDC, and reusable-workflow boundaries
-- Human-readable and JSON output for local checks and CI
-
 ### [Escalation Lifecycle Guard](https://github.com/jjoseph456/escalation-lifecycle-guard)
 
 A dependency-free Python CLI that checks whether a support escalation still
@@ -84,6 +71,22 @@ has a clear path to a customer outcome:
 A `gh` CLI extension for a fast, read-only first look at a GitHub Enterprise
 Server support bundle: disk, memory and OOM, failed services, and proxy or
 connectivity errors.
+
+### [Runner Fleet Reliability Platform](https://github.com/jjoseph456/runner-fleet-reliability-platform) (in progress)
+
+A production-shaped SRE and developer-platform project for ephemeral GitHub
+Actions runner fleets:
+
+- OpenTofu configuration for a temporary AWS EKS lab
+- Kubernetes, Helm, and Actions Runner Controller configuration
+- Queue, startup, cleanup, and maximum-age SLOs
+- Prometheus metrics and alert rules
+- Capacity, cost, and incident evidence
+- Read-only MCP tools for fleet inspection and recommendations
+- Deterministic burst, capacity-loss, image-failure, and API-degradation tests
+
+**Current status:** validated local and infrastructure scaffold; cloud
+deployment evidence has not yet been captured.
 
 ### More Projects
 
